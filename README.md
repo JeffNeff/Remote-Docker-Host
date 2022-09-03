@@ -1,4 +1,4 @@
-# Remote-Docker-Enviorment
+# Remote-Docker-Host
 Leverage more resources within you dev environment by using a remote Docker host.
 
 ## Intro
