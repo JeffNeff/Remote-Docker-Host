@@ -83,5 +83,18 @@ ssh-copy-id userid@hostname
 
 It should ask you to enter the password. Then confirm sucess. 
 
-#### 
+#### Specify the Remote Docker Host
+
+Replace `userid` and `hostname` with your user name and the local IP of the Remote Docker Host. 
+
+```
+export DOCKER_HOST=ssh://userid@hostname
+```
+
+**Note** If you dont set this up in your `.profile`, or equivalent, you will need to export this variable in each new terminal session.
+
+## Usage
+
+Now use docker like normal and enjoy a fan-free development workstation :) 
+
 
