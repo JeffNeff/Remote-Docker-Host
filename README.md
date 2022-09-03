@@ -68,6 +68,11 @@ sudo apt-get install net-tools
 ifconfig | grep 192
 ```
 
+for me this returned:
+```
+192.168.1.12
+```
+
 ### Development Enviorment
 
 #### SSH Keypair
@@ -91,10 +96,15 @@ Replace `userid` and `hostname` with your user name and the local IP of the Remo
 export DOCKER_HOST=ssh://userid@hostname
 ```
 
+MY user name is `jeff` and the local address of my Remote Docker Host is `192.168.1.12`. So MY command will look like
+```
+export export DOCKER_HOST=ssh://jeff@192.168.1.12
+```
+
 **Note** If you dont set this up in your `.profile`, or equivalent, you will need to export this variable in each new terminal session.
 
 ## Usage
 
-Now use docker like normal and enjoy a fan-free development workstation :) 
+Now use docker like normal, watch the containers spin up on the Remote Docker Host, and enjoy a fan-free development enviorment :) 
 
 
