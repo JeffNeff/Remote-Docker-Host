@@ -1,4 +1,3 @@
-WIP
 # Remote-Docker-Enviorment
 Leverage more resources within you dev environment by using a remote Docker host.
 
@@ -10,9 +9,7 @@ Consider using a remote Docker host!
 
 
 ## Setup 
-
 For this guide, we will be using a 2019 Intel Macbook Pro for the development workstation and a i9 9900k intel workstation running Ubuntu 22.04.1 , we will refer to as the `Remote Docker Host`. 
-
 
 Lets set up remote docker host first!
 
