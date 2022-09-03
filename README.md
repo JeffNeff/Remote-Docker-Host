@@ -7,6 +7,12 @@ Find your poor laptop fans spinning into enternity? Have some extra resources la
 
 Consider using a remote Docker host!
 
+## TLDR;
+
+If you have set up docker desktop and SSH keypair's you can skip the below and just:
+* Setup SSH 
+* `export DOCKER_HOST=ssh://userid@hostname`
+
 
 ## Setup 
 For this guide, we will be using a 2019 Intel Macbook Pro for the development workstation and a i9 9900k intel workstation running Ubuntu 22.04.1 , we will refer to as the `Remote Docker Host`. 
